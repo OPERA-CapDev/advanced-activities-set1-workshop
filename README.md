@@ -19,11 +19,34 @@ Through the workshop, participants will learn how to:
 * Analyze and interpret ocean information;
 * Apply Copernicus Marine data to practical oceanographic examples and use cases.
 
+## Getting Started — Running on CryoCloud
+
+The workshop runs entirely in the cloud on **CryoCloud**, a managed JupyterHub. You work in your browser — there is **nothing to install on your own computer**.
+
+### Before the workshop — please do this today
+
+You should already have a **GitHub account** and have **accepted our invitation** to the hub. In addition:
+
+1. **Not invited yet?** If you have **not received your hub invitation**, fill out the short [Getting Started Survey](https://forms.gle/d8oP1gp9YikS2ixM8) and give us your **GitHub username** so we can add you.
+2. **Copernicus Marine account.** Create a free account at [data.marine.copernicus.eu/register](https://data.marine.copernicus.eu/register).
+3. **DestinE Platform account** (for ERA5 data on the Earth Data Hub). Register at [platform.destine.eu](https://platform.destine.eu/), then open the Earth Data Hub [Quota & API keys](https://earthdatahub.destine.eu/quota-api-keys#my-personal-access-tokens) page and copy your **default API key** — the long text string itself, **not** its name `edh-bearer`. Keep it somewhere safe; you will need it during the workshop.
+4. **Test your access today.** You don't need to wait for the workshop day — open the hub now at **https://sessions.ggosss.org/cloud/**, sign in with **GitHub**, and let **JupyterLab** open. Have a look around.
+
+   **Please stop your server when you finish exploring**, to free up resources:
+
+   > Click **File** (top-left menu) → scroll down to **Hub Control Panel** → click **Stop My Server**.
+
+### Good to know
+
+* Data is **streamed** from Copernicus Marine wherever possible, so you don't need to download large files.
+* Your work is saved in your CryoCloud home directory between sessions.
+* If your internet is slow or metered, tell a facilitator — pre-staged data can be made available.
+
 ## Repository Structure
 
 The repository will contain the materials needed for the practical activities, including:
 
-```text id="mwrv9s"
+```text
 advanced-activities-set1-workshop/
 │
 ├── notebooks/        # Jupyter notebooks used during the workshop
@@ -38,17 +61,9 @@ The repository structure will evolve as the workshop materials are developed and
 
 ## For Instructors
 
-During the preparation phase, this repository serves as a collaborative workspace for instructors developing, reviewing, and testing the workshop materials.
-
 Instructors are encouraged to use separate branches when developing or substantially modifying workshop materials. Changes should be reviewed before being incorporated into the `main` branch.
 
 The `main` branch will contain the validated version of the workshop materials.
-
-## For Participants
-
-The finalized workshop materials will be made available here for participants.
-
-Detailed instructions on how to access and run the practical activities, including any technical requirements, will be provided before the workshop.
 
 ## About OPERA Capacity Development
 
@@ -68,4 +83,4 @@ Licensing information for the workshop code and materials will be provided befor
 
 ## Contact
 
-For questions related to the OPERA Capacity Development activities or these workshop materials, please contact the OPERA Capacity Development team, contact@ggosss.org. 
+For questions related to the OPERA Capacity Development activities or these workshop materials, please contact the OPERA Capacity Development team, contact@ggosss.org.
