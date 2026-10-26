@@ -50,10 +50,8 @@ The repository will contain the materials needed for the practical activities, i
 advanced-activities-set1-workshop/
 │
 ├── notebooks/        # Jupyter notebooks used during the workshop
-├── exercises/        # Hands-on exercises for participants
 ├── scripts/          # Supporting scripts, where needed
-├── data/             # Sample data, where needed
-├── resources/        # Additional workshop resources
+├── resources/        # Additional workshop resources where needed
 └── README.md
 ```
 
